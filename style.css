@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  background: #fafafa;
+}
+
+.hero {
+  background: linear-gradient(120deg, #00b894, #0984e3);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero .logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.hero button {
+  background: white;
+  color: #0984e3;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.features .feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.features .feature {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 250px;
+}
+
+.how ol {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.demo button {
+  background: #00b894;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#mapArea {
+  background: #dff9fb;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  background: #0984e3;
+  color: white;
+  padding: 30px;
+}
